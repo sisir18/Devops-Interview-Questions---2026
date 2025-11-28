@@ -1,0 +1,81 @@
+Apple 1st Round (EOY : 5yrs , DATE :28/11/2025)
+-----------------------------------------------
+1.Can you introduce yourself and give a brief overview of your professional background?
+2.What type of tasks have you automated using CI/CD,and whatis your overall approach to designing a CI/CD pipeline?
+3.How do you plan and perform EKS cluster upgrades across multiple enviornments?
+4.Can you write a Terraform script to create an S3 bucket and a Lambda function that copies a ZIP file from that bucket?
+5.If you have one AWS account and need to create two S3 buckets using Terraform modules,how would you structure it?
+6.What is Terraform drift,and what does terraform plan do?How do you handle drift when it is detected?
+7.Can you write a bash script that clones a repository , searches for the infra folder,zips the config and YAML files,and uploads them to S3?
+8.What is the difference between *and & in Bash command execution?
+9.Can you write a Dockerfile for a Node.js application?
+10.You are using multi-stage Docker builds why are you using that approach?What benefits does it provide?
+11.What are the output artifacts files generated when building java and Node.js applications?
+12.What was your role in your previous organization were you leading a team or working as an individual contributor?
+
+
+Deloitte 1st Round :
+CI/CD - Jenkins :
+1.How do you check logs and errors in a jenkins build?
+2.How do you troubleshoot when Jenkins nodes or agents fail?
+3.How do you manage 100 microservices efficiently in Jenkins pipelines?
+4.How do you handle or avoid Jenkins bottlenecks during heavy workloads?
+5.What is a declarative pipeline in Jenkins?
+6.What is scripted pipeline in Jenkins?
+7.How do you handle secrets in Jenkins?
+8.How do you achieve zero downtime in CI/CD?
+Kubernetes:
+9.How do you troubleshoot IP conflicts in a Kubernetes cluster?
+10.During a rolling update in Kubernetes,what happens in the backend?
+11.What are readiness and liveness probes?
+AWS/S3 :
+12.How do you migrate data in S3?(S3 -> S3 migration)
+Terraform:
+13.What do you do when the Terraform state file gets corrupted?
+14.If your application jas heavy load,how do you scale Jenkins?Do you use separate Jenkins agents?
+
+1.How do you implement monitoring for CI/CD pipelines?
+2.What metrics do you typically monitor in a CI/CD system,and how do you alert on failures?
+3.What is your understanding of Site Reliability Engineering(SRE)?
+4.How is SRE different from DevOps in terms if responsibilities,principles, and focus areas?
+5.If three services have already consumed 95% of their error budget and only 5% remains
+
+Deloitte 3rd Round :
+1)Can you please brief me about your resume
+2)why do we need blue green deployment?What problem it solves?
+3)How can you ensure a pipeline is secure(For code as well as cicd)?
+4)How can you ensure traffic is forwarded securely inside VPC?
+5)When can you join ? And why do you want to join Deloitte?
+6)What is the current and expected CTC?
+
+Daimler Truck Technical Interview Questions:
+1)What do you understand about TLS handshake?
+2)Can you draw me an architectural diagram of your application which you worked in your previous organization and explain me in detail
+3)What is forward and reverse proxy ?
+4)What do you do when the connection between front end container and back end container is not stable.meaning it disables every time how do you provide a long term solution to this?
+5)How the traffic flows from browser to application hosted on eks?
+6)How is an API Gateway and why do we use it?
+7)Can you draw me a diagram of branching strategy that your Org followed and explain me?
+8)Can you explain the troubleshooting you have done in your organization in details?
+
+Curriculum Associates (YOE:5-6yr)
+---------------------------------
+1)Listout your greatest achievement and projects in the last 6 months?
+2)Docker: 
+a)How to optimize the Docker file?
+b)Difference between ADD and COPY?
+
+EC2:
+1)A simple web application, and it's still in the US state,so you'are using maybe tomcat or apache server to host your application,which is running on the EC2.You have got a page saying this application is down.We are not able to access the application.How do we investigate?Can you just walk me through?
+
+VPC and Networking:
+When to use ALB vs NLB?
+If there are 15 VPC how to establish communications?
+What is the difference between NACL and SEcurity Groups?
+Can you add security group to private subnet?
+Terraform:
+Write a terraform script to create an EC2 instance?
+Write a terraform script to add Security Group to VPC and EC2 instance?
+
+
+
