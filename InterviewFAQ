@@ -78,4 +78,52 @@ Write a terraform script to create an EC2 instance?
 Write a terraform script to add Security Group to VPC and EC2 instance?
 
 
+Accenture interview Questions:
+------------------------------
+1)What is VPC? 
+2)How oes the product URL work in an e-commerce website?
+3)How oes the request route to a specific microservice , like/clothes?
+4)How many worker nodes do you use and how do you manage scaling?
+5)How do deployments happen in EKS and how do you manage your clusters and microservices?
+6)How does Jenkins authenticate to AS when running Terraform?
+7)What are Terraform provisioners ad when do we use them?
+8)What are Terraform meta-arguments?
+9)What are dynamic blocks in Terraform?
+10)What are different kubernetes service types?
+11)How do you configure Kubernetes health checks for Pods?
+12)What is the difference between ADD and COPY in Docker?
+13)When do you use CMD vs ENTRYPOINT in Docker?
+14)How do you explain your entire e-commerce project setup?
+15)What server sizes and instance types are used in your project?
+16)Why do we need autoscaling for both nodes and pods?
+17)How do you handle Helm charts?
+
+Seclore 2nd round Interview:
+1)Python program to check a prime no
+2)Shell script to appnd some data into existing file?
+3)How can we run ansible playbook in background?
+4)Write Terraform code to provision an EC2 instance?
+5)Readiness/Liveness probe?
+6)HPA/VPA.Which is prefered and why? Use case?
+7)Howdo you you ensure only one particular pod runs on one node
+8)Taints and Tolerations
+9)Static pod in Kubernetes.
+10)Set resource constraints at namespace level
+11)Node scaling,ASG scaling
+12)Swap memory in Linux
+13)$? Meaning
+14)chmod permissions
+15)EBS,EFS,S3(Latency,cost,usecase)
+16)VPC Peering and NAT Gateway
+17)Lambda function running in public subnet.It should connect to S3 over private subnet
+18)Serverless services provided by ASW and thir use case
+19)Provisioners and heir use case
+20)Workspaces and modules
+21)How will you setup remote backndand state locking
+22)Life ycle blocks
+23)Data blocks in Terraform
+24)User requirement is to divert traffic in umbai region onlyHow will you achieve ?
+25)How will you list out all open ports?
+
+
 
