@@ -125,5 +125,16 @@ Seclore 2nd round Interview:
 24)User requirement is to divert traffic in umbai region onlyHow will you achieve ?
 25)How will you list out all open ports?
 
-
+JP Morgan 3rd Tech Discussion :
+1)Can you brief introduce yourself and highlight your key experience in DevOps?
+2)What type of issues have you handled through JIRA?Can you explain one major issue and one minor issue in detail includinh your approach and resolution?
+3)If a pod with pod-affinity configured keeps crashing in production,how would you troubleshoot and bring it back online quickly while ensuring traffic is routed to it?
+4)If data is flowing between multiple pods and you need to trace flow to identify where an issue is occuring,what approach or tools would you use?
+5)How would you restore a Kubernetes cluster from an etcd backup?Do you know how etcd stores cluster metadata?
+6)Can you explain the overall architecture of Kubernetes and the responsibilities of each component?
+7)Can you collect logs and traces from a Java application?What tools or stack would you use to implement this?
+8)Are you open to work in rotational shifts if required in this role?
+9)How would you handle high-pressure situations?Can you share an example of stressful incident you managed and how you approached it?
+10)How does Argo CD deploy manifests to different enviornments?Can you explain the setup you implemented?
+11)If a production outage occurs,what would be your immadediate approach to toubleshoot and resolve the issue as quickly as possible?
 
