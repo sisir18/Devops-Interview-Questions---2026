@@ -126,6 +126,7 @@ Seclore 2nd round Interview:
 25)How will you list out all open ports?
 
 JP Morgan 3rd Tech Discussion :
+-------------------------------
 1)Can you brief introduce yourself and highlight your key experience in DevOps?
 2)What type of issues have you handled through JIRA?Can you explain one major issue and one minor issue in detail includinh your approach and resolution?
 3)If a pod with pod-affinity configured keeps crashing in production,how would you troubleshoot and bring it back online quickly while ensuring traffic is routed to it?
