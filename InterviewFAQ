@@ -120,7 +120,7 @@ Seclore 2nd round Interview:
 19)Provisioners and heir use case
 20)Workspaces and modules
 21)How will you setup remote backndand state locking
-22)Life ycle blocks
+22)Life cycle blocks
 23)Data blocks in Terraform
 24)User requirement is to divert traffic in umbai region onlyHow will you achieve ?
 25)How will you list out all open ports?
@@ -138,4 +138,23 @@ JP Morgan 3rd Tech Discussion :
 9)How would you handle high-pressure situations?Can you share an example of stressful incident you managed and how you approached it?
 10)How does Argo CD deploy manifests to different enviornments?Can you explain the setup you implemented?
 11)If a production outage occurs,what would be your immadediate approach to toubleshoot and resolve the issue as quickly as possible?
+
+Seclore 3rd Round Interview Questions:
+--------------------------------------
+1)EKS Patch management
+2)Application is slowed down.Troubleshooting steps?
+3)Pod is 1/1 running but no logs are there?
+4)Lambda function written and explanation in detail?
+5)Is it advisable to run lambda function for hours?
+6)How would you verify if your lambda function did the task completely or it missed out on something?
+7)Instead of lambda why not schedule a cronjob?
+8)Reasons for pod in cashloopbackoff and pending state 
+9)Prometheus setup.How is it deployed in your project?
+10)EFK setup in your project ?
+11)How are alerts getting generated using this setup?
+12)How does node exporter work,application specific exporter ,need to check only application specific info.How will you do?
+13)Scripts you have written ,explain ?
+14)Achievements in past 6 months.
+15)Command to check the successful execution of previous command in bash
+
 
