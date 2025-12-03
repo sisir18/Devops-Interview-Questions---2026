@@ -64,3 +64,10 @@ Controlled access: Only via load balancers, bastion hosts, or VPN.
 Compliance: Meets stricter regulatory requirements.
 
 Scalability: Easier to add more private subnets across AZs.
+2)What is the security implementation that you have done in CICD as well as your application running on EKS?
+3)Application hosted on EC2 is not able to connect to RDS.How would you troubleshoot?
+4)Write a bash script to give the status of the pipelines in your Organization.It should print success or failure?
+5)Write terraform script to provision EC2 instance and security group?
+6)How would you ensure EC2,S3,RDS are used as per requirements?
+7)Lets say POD is went to Cashlookbackoff .How would you troubleshoot.Give detailed explanation?
+8)Write a docker file for python flask?
