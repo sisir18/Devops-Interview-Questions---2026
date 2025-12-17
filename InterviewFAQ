@@ -216,5 +216,40 @@ Kuberntes:
 Terraform:
 1.Difference between terrafom plan and terraform apply?
 
+Linux & Networking :
+1.Where do you create and configure host mappings locally?
+2.How do you map a domain(abc.com) to an IP locally on Linux?
+3.What is the /etc/hosts file?
+4.What do you configure in the /etc/hosts file?
+5.How do you configure DNS resolving on Linux?
+6.Where do you configure DNS settings on Linux?
+7.Have you worked with /etc/resolv.conf?
+8.How do you configure certificates on Linux?
+9.Have you worked with iptables?
+10.Have you worked with any firewall tools?
+11.What do you understand by server utilization?
+12.How do you indentify high server utilization?
+13.What is load average?
+14.Explain what is a shell script file is ?
+15.How do you run a shell script file?
+16.What is a cron job?
+17.How do you use cron job?
+Other Tools :
+18.What is the difference between a private subnet and a public subnet?
+19.What is AWS Lambda?
+20.What is Amazon S3?
+21.What is Terrafom?
+22.How do you integrate Terrafom with AWS?
+23.How do you apply changes in Terraform?
+24.How do you deploy using GitHub?
+25.What is aDockerfile?
+26.Explain the structure of a Dockerfile?
+27.What is the difference between CMD and ENTRYPOINT ?
+28.How do you check running containers in Docker?
+29.How do you login to a Docker conatiner?
+30.Explain the architecture of Kubernetes?
+31.What is High Availability(HA)?
+
+
 
 
