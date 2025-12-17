@@ -157,4 +157,64 @@ Seclore 3rd Round Interview Questions:
 14)Achievements in past 6 months.
 15)Command to check the successful execution of previous command in bash
 
+Avaya 3rd round Interview Questions:
+1) ArgoCD flow?
+2)Automation and reliability tasks performed in current project
+3)What kind of Kubernetes orchestrator you have worked on and how do you manage them
+4)CI/CD workflow and tools used in the entire flow in your project
+5)What kind of Kubernetes upgrades have you perfromed
+6)Expereince with Azure,On Prem , GCP
+7)What is the one thing your manager will most think about you when you will leave the company
+8)Why are you looking out for a job
+9)How does your day look like? Sprints followed in your projects?
+10)Have you worked with developers to understand their requirements and design CI/CD pipelines for them
+11)How do you handle downtime while upgrades.Any perticular strategy or reliability set up?
+
+
+Bash Scripting :
+
+Write a bash script to find the top 5 largest files in a directory and display their size.
+Python scripting :
+Write a Python Script to read a log file and count how many times the word "ERROR" appears
+AWS:
+Explain the difference between EC2,ECS,and EKS? When would you use each ?
+Difference between Security Groups and NACLs
+How does IAM role differ from IAM user?
+What happend if an EC2 instance is stopped vs terminated?
+Difference between ALB,NLB and CLB?
+How does Auto Scaling work with ALB?
+What is VPC Peering and its limitations?
+Difference between S3 and EBS?
+GIT:
+1.What is the difference between Git merge and git rebase?
+2.How do you resolve merge conflicts?
+GitHub Actions:
+1.How does a HitHub Actions workflow get triggered?
+2.Explain the structure of a GitHub Actions YAML file.?
+GitLab CI/CD:
+1.Difference between Github Actions and GitLab CI/CD?
+2.What are stages and jobs in GitLab Pipelines?
+3.Explain the structure of a .gitlab-ci.yml file
+4.What are the stages,jobs and pipelines in GitLab?
+5.How do GitLab runners work?
+6.What is a protected branch and protected variable?
+DOCKER :
+1.Difference between Docker image and container?
+2.What is a multi-stage Docker build and why is it used?
+Kuberntes:
+1.Difference between Deployment,StatefulSet, and DaemonSet ?
+2.How does Kubernetes perform rolling updates?
+3.How does Kuberntes handle pod restarts and failures?
+4.What happens when a node goes into NotReady state?
+5.Difference between ClusterIP,NodePort and LoadBalancer services?
+6.How do liveliness and readiness probes work?
+7.What is the purpose of ConfigMaps and Secrets?
+8.How does horizontal Pod Autoscaler work internally?
+9.Difference between ingress and Service?
+10.What is the use of namespaces in Kuberntes?
+11.How do you troubleshoot a pod stuck in CrashLoopBackOff?
+Terraform:
+1.Difference between terrafom plan and terraform apply?
+
+
 
