@@ -1,0 +1,73 @@
+Tesco First round Tech Discussion :
+------------------------------------
+1)How would you migrate application from public subnet to private subnet?
+Migrating an application from a public subnet to a private subnet in a cloud environment (like AWS, Azure, or GCP) is essentially about tightening security by removing direct internet exposure. Let me break it down step by step:
+
+🔑 Key Steps for Migration
+Assess current architecture
+
+Identify which components (EC2 instances, containers, databases, etc.) are in the public subnet.
+
+Document dependencies: inbound/outbound traffic, ports, and external integrations.
+
+Create private subnets
+
+In your VPC, define private subnets that do not have a route to the Internet Gateway.
+
+Ensure they are spread across multiple Availability Zones for high availability.
+
+Move application servers
+
+Launch new instances (or migrate existing ones) into the private subnet.
+
+Update Auto Scaling Groups, ECS/EKS tasks, or VM configurations to use private subnet IDs.
+
+Enable outbound internet access via NAT
+
+If the application needs to download packages, call APIs, or reach external services, configure a NAT Gateway or NAT Instance in a public subnet.
+
+Update route tables so private subnets send outbound traffic through NAT.
+
+Configure inbound access
+
+Since private subnets cannot be reached directly from the internet, use:
+
+Load Balancer (ALB/NLB) in a public subnet to forward traffic.
+
+Bastion host in a public subnet for admin SSH/RDP access.
+
+VPN or Direct Connect for secure corporate access.
+
+Update DNS and networking
+
+Point your domain (Route 53, Cloud DNS, etc.) to the load balancer instead of the public instance.
+
+Adjust security groups and NACLs to allow only necessary traffic.
+
+Test thoroughly
+
+Validate application functionality, external API calls, and monitoring/logging.
+
+Run penetration and connectivity tests to confirm no unintended exposure.
+
+Decommission old public resources
+
+Terminate instances in the public subnet once migration is complete.
+
+Remove unused Elastic IPs, Internet Gateway routes, and security group rules.
+
+⚖️ Benefits of Migration
+Improved security: No direct internet exposure.
+
+Controlled access: Only via load balancers, bastion hosts, or VPN.
+
+Compliance: Meets stricter regulatory requirements.
+
+Scalability: Easier to add more private subnets across AZs.
+2)What is the security implementation that you have done in CICD as well as your application running on EKS?
+3)Application hosted on EC2 is not able to connect to RDS.How would you troubleshoot?
+4)Write a bash script to give the status of the pipelines in your Organization.It should print success or failure?
+5)Write terraform script to provision EC2 instance and security group?
+6)How would you ensure EC2,S3,RDS are used as per requirements?
+7)Lets say POD is went to Cashlookbackoff .How would you troubleshoot.Give detailed explanation?
+8)Write a docker file for python flask?
