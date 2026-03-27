@@ -1,0 +1,45 @@
+DAY - 15
+----------
+
+NACL & Security Groups
+
+In AWS, Security Groups are stateful firewalls applied at the instance level, while Network ACLs (NACLs) are stateless firewalls applied at the subnet level. Security Groups are easier to manage for individual EC2 instances, whereas NACLs provide broader subnet-wide control, including the ability to explicitly deny traffic.
+
+🔑 Key Differences Between NACLs and Security Groups
+Feature	Security Group (SG)	Network ACL (NACL)
+Scope	Instance-level (attached to EC2)	Subnet-level (applies to all resources in subnet)
+Statefulness	Stateful – return traffic is automatically allowed	Stateless – return traffic must be explicitly allowed
+Rules	Only “allow” rules	Both “allow” and “deny” rules
+Default Behavior	Inbound denied, outbound allowed	All inbound/outbound allowed by default
+Granularity	Fine-grained control for individual instances	Broad subnet-wide control
+Use Case	Protect specific EC2 instances	Block/allow traffic across entire subnet
+Complexity	Easier to configure and maintain	More complex, requires explicit ephemeral port handling
+Sources: 
+
+📌 When to Use Security Groups
+Controlling access to specific EC2 instances.
+
+Allowing traffic for applications (e.g., HTTP/HTTPS, SSH).
+
+Simplifying management with stateful rules (no need to configure return traffic).
+
+Applying multiple SGs to one instance for flexible configurations.
+
+📌 When to Use NACLs
+Enforcing subnet-wide rules across all resources.
+
+Blocking specific IPs or ranges (since SGs don’t support deny rules).
+
+Adding an extra layer of defense beyond Security Groups.
+
+Meeting compliance requirements that demand explicit inbound/outbound restrictions.
+
+✅ Best Practice
+AWS recommends using both together for a layered security model:
+
+Security Groups: First line of defense at the instance level.
+
+NACLs: Second line of defense at the subnet level, especially for deny rules and broader control.
+
+Bottom Line:  
+Use Security Groups for everyday instance-level access control, and add NACLs when you need subnet-wide enforcement, deny rules, or layered protection. Together, they provide a robust defense-in-depth strategy in AWS networking.
